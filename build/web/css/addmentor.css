@@ -1,0 +1,126 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : May 28, 2017, 3:47:58 PM
+    Author     : SaiDeva
+*/
+
+.main > div {
+  display: inline-block;
+  width: 49%;
+  margin-top: 10px;
+  float: center;
+}
+
+.two .register {
+  border: none;
+}
+.two .register h3 {
+  border-bottom-color: #00464f;
+}
+.two .register .sep {
+  border-color:#00464f;
+}
+
+.register {
+  width: 500px;
+  margin: 10px auto;
+  padding: 10px;
+  border: 7px white;
+  border-radius: 10px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #444;
+  background-color: #F0F0F0;
+  box-shadow: 0 0 20px 0 #000000;
+  position: absolute;
+  left:300px;
+  top:100px;
+}
+.register h3 {
+  margin: 0 15px 20px;
+  border-bottom: 2px solid #00464f;
+  padding: 5px 10px 5px 0;
+  font-size: 1.1em;
+}
+.register div {
+  margin: 0 0 15px 0;
+  border: none;
+}
+.register label {
+  display: inline-block;
+  width: 25%;
+  text-align: right;
+  margin: 10px;
+}
+.register input[type=text], .register input[type=password], .register input[type=number], .register input[type=email]  {
+  width: 65%;
+  font-family: "Lucida Grande","Lucida Sans Unicode",Tahoma,Sans-Serif;
+  padding: 5px;
+  font-size: 0.9em;
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.07);
+}
+.register input[type=text]:focus, .register input[type=password]:focus, .register input[type=number]:focus, .register input[type=email] :focus {
+  background: #FFFFFF;
+}
+.register .button {
+  font-size: 1em;
+  border-radius: 8px;
+  padding: 10px;
+  border: 1px solid #00464f;
+  box-shadow: 0 1px 0 0 #00464f inset;
+  background: #001E22;
+  color:white;
+  background: -webkit-linear-gradient(#001E22, #001E22);
+  background: -moz-linear-gradient(#001E22, #001E22);
+  background: -o-linear-gradient(#001E22, #001E22);
+  background: linear-gradient(#001E22, #001E22);
+}
+.register .button:hover {
+  background: black;
+  background: -webkit-linear-gradient(#001E22, #00464f);
+  background: -moz-linear-gradient(#001E22, #00464f);
+  background: -o-linear-gradient(#001E22, #00464f);
+  background: linear-gradient(#001E22, #00464f);
+}
+.register .sep {
+  border: 1px solid #72B372;
+  position: relative;
+  margin: 35px 20px;
+}
+.register .or {
+  position: absolute;
+  width: 50px;
+  left: 50%;
+  background: #F0F0F0;
+  text-align: center;
+  margin: -10px 0 0 -25px;
+  line-height: 20px;
+}
+.register .connect {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.register .social-buttons {
+  display: inline-block;
+  min-width: 150px;
+  height: 50px;
+  margin: 0 5px 10px;
+  border-radius: 10px;
+  text-shadow: 1px 1px 5px #000000;
+}
+.register .social-buttons a {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+  color: #FFFFFF;
+  padding: 10px 15px;
+}
+.register .social-buttons span {
+  font-size: 30px;
+  margin-left: 35px;
+}

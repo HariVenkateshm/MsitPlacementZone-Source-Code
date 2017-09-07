@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 8, 2017 11:22:38 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="msitplacement.Comments" table="comments" catalog="msitplacementdb" optimistic-lock="version">
+        <id name="id" type="java.lang.Integer">
+            <column name="id" />
+            <generator class="identity" />
+        </id>
+        <property name="rollnumber" type="string">
+            <column name="rollnumber" length="200" />
+        </property>
+        <property name="sub" type="string">
+            <column name="sub" length="65535" />
+        </property>
+        <property name="question" type="string">
+            <column name="question" length="65535" />
+        </property>
+        <property name="answer" type="string">
+            <column name="answer" length="65535" />
+        </property>
+    </class>
+</hibernate-mapping>

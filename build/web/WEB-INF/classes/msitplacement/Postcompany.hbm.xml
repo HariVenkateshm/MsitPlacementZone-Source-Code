@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated Jun 8, 2017 11:22:38 AM by Hibernate Tools 4.3.1 -->
+<hibernate-mapping>
+    <class name="msitplacement.Postcompany" table="postcompany" catalog="msitplacementdb" optimistic-lock="version">
+        <id name="companyname" type="string">
+            <column name="companyname" />
+            <generator class="assigned" />
+        </id>
+        <property name="jobdesc" type="string">
+            <column name="jobdesc" length="65535" />
+        </property>
+        <property name="about" type="string">
+            <column name="about" length="65535" />
+        </property>
+    </class>
+</hibernate-mapping>
